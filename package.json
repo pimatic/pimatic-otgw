@@ -8,9 +8,9 @@
     "README.md",
     "otgw-config-schema.coffee",
     "device-config-schema.coffee",
-	"LICENSE"
+    "LICENSE"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/Fjuxx/pimatic-otgw",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "configSchema": "otgw-config-schema.coffee",
   "dependencies": {
-    "OTGW-Control" : "git+https://github.com/Fjuxx/OTGW-Control"
+    "OTGW-Control": "git+https://github.com/Fjuxx/OTGW-Control"
   },
   "peerDependencies": {
     "pimatic": "0.8.* && >=0.8.31"
